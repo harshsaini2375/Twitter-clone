@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind css</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="src/output.css">
+    <style>
+
+    </style>
+</head>
+
+<body class="bg-black text-white ">
+    <div
+        class=" cont border-separate w-screen h-screen overflow-y-scroll border-2 border-black flex  md:px-32 relative xs:p-0 xs:border-none xs:mb-9">
+
+        <div class="xsheader w-screen h-12 hidden xs:flex bg-black justify-end items-center px-5 xs:fixed 
+            z-10">
+            <span class="text-blue-500 font-bold ">Get Premium</span>
+        </div>
+
+        <div class="  left w-[13%] md:w-[20%] h-full border-2 border-black text-xl font-bold py-3 sticky top-0  xs:bg-black
+        opacity-[0.9]  xs:w-screen xs:h-[57px] xs:fixed xs:top-[92vh] xs:z-20 xs:flex xs:flex-row ">
+            <div
+                class="icon ml-4 w-10 h-10 rounded-full flex justify-center items-center hover:bg-[#16181c] cursor-pointer">
+
+                <img class="invert" src="images/xicon.svg" alt="xicon">
+            </div>
+            <div class="home btndesign hover:bg-[#16181c] cursor-pointer 
+             ">
+                <img class="invert" src="images/home.svg" alt="homeimg">
+                <div class="text hidden md:block ">Home</div>
+            </div>
+
+            <div class="explore btndesign hover:bg-[#16181c] cursor-pointer
+            xs:p-0 xs:border-none">
+                <img class="invert" src="images/search.svg" alt="">
+                <div class="text hidden md:block ">Explore</div>
+            </div>
+            <div class="notifications btndesign hover:bg-[#16181c] cursor-pointer
+            xs:p-0 xs:border-none">
+                <img class="invert" src="images/notification.svg" alt="">
+                <div class="text hidden md:block ">Notifications</div>
+            </div>
+            <div class="messages btndesign hover:bg-[#16181c] cursor-pointer 
+            xs:p-0 xs:border-none">
+                <img class="invert" src="images/messages.svg" alt="">
+                <div class="text hidden md:block ">Messages</div>
+            </div>
+            <div class="grok btndesign hover:bg-[#16181c] cursor-pointer
+            xs:p-0 xs:border-none">
+                <img class="invert" src="images/grok.svg" alt="">
+                <div class="text  hidden md:block">Grok</div>
+            </div>
+            <div class="communities btndesign hover:bg-[#16181c] cursor-pointer 
+            xs:p-0 xs:border-none">
+                <img class="invert" src="images/communities.svg" alt="">
+                <div class="text hidden md:block ">Communities</div>
+            </div>
+            <div class="premium btndesign hover:bg-[#16181c] cursor-pointer 
+            xs:p-0 xs:border-none xs:absolute xs:bottom-[94vh] xs:left-[165px]">
+                <img class="invert" src="images/xicon.svg" alt="">
+                <div class="text hidden md:block ">Premium</div>
+            </div>
+            <div class="verifiedorgs btndesign hover:bg-[#16181c] cursor-pointer *: xs:p-0 xs:border-none xs:hidden">
+                <img class="invert" src="images/verifiedorgs.svg" alt="">
+                <div class="text hidden md:block ">Verified orgs</div>
+            </div>
+            <div class="profile cursor-pointer btndesign hover:bg-[#16181c] 
+            xs:p-0 xs:border-none xs:hidden">
+                <img class="invert" src="images/profile.svg" alt="">
+                <div class="text hidden md:block ">Profile </div>
+            </div>
+            <div class="more btndesign hover:bg-[#16181c] cursor-pointer *: xs:p-0 xs:border-none xs:hidden">
+                <img class="invert" src="images/more.svg" alt="">
+                <div class="text hidden md:block ">More</div>
+            </div>
+            <!-- rgb(29 155 240) -->
+            <div
+                class="post btndesign w-10/12  justify-center py-3 bg-sky-500 cursor-pointer hidden md:flex xs:absolute  xs:bottom-0 xs:hidden">
+                Post
+            </div>
+
+            <div class="bg-blue-500 p-4 btndesign ml-2 md:hidden xs:hidden">
+                <img src="images/pencil.svg" alt="pencil">
+            </div>
+
+            <div
+                class="userid btndesign w-11/12 py-2  mt-9 hover:bg-[#16181c] cursor-pointer xs:absolute bottom-[92vh] left-1">
+                <img class="invert md:static absolute bottom-2" src="images/profile-circle.svg" alt="profile-circle">
+                <div class="idname hidden md:block">
+                    <div class="text-base ">harshsaini</div>
+                    <div class="font-normal text-base">@harshsaini88441</div>
+                </div>
+                <div class="hidden md:block">...</div>
+            </div>
+        </div>
+
+        <div class="center w-full md:w-[49%] h-fit  border-x-[1px] border-gray-500  xs:w-screen xs:mt-[53px]">
+
+
+
+
+            <div
+                class="topcenter xs:top-12 border-b border-gray-500 h-14 flex sticky top-0 bg-black z-10 opacity-[0.8]">
+                <div class="foryou w-full flex items-center justify-center font-bold cursor-pointer hover:bg-[#16181c]">
+                    For you</div>
+                <div
+                    class="following w-full flex items-center justify-center text-gray-500 cursor-pointer hover:bg-[#16181c]">
+                    Following</div>
+            </div>
+            <div class="secondcenter border-b border-gray-500 h-[15vh] xs:hidden">
+                <div class="happen flex items-center gap-2 px-5 py-2">
+                    <img class="invert w-12 cursor-pointer" src="images/profile-circle.svg" alt="profile">
+                    <input class="text-xl text-gray-500 bg-black border border-black focus:outline-0" type="text"
+                        placeholder="What is happening?!">
+
+                </div>
+                <div class="happenicons flex justify-between gap-4 relative pl-20 pr-5">
+                    <div class="flex gap-4">
+                        <img class="w-5 cursor-pointer" src="images/gallery-svgrepo-com.svg" alt="galaryimg">
+                        <img src="images/gif-svgrepo-com.svg" alt="" class="w-5 cursor-pointer">
+                        <img src="images/setting-svgrepo-com.svg" alt="" class="w-5 cursor-pointer">
+                        <img src="images/smile-circle-svgrepo-com.svg" alt="" class="w-5 cursor-pointer">
+                        <img src="images/time.svg " alt="" class="w-5 cursor-pointer">
+                        <img src="images/location-pin-alt-1-svgrepo-com.svg" alt="" class="w-5 cursor-pointer">
+
+                    </div>
+                    <div class="capsule bg-blue-400">Post</div>
+                </div>
+            </div>
+            <div
+                class="thirdcenter border-b border-gray-500 h-14 text-blue-400 flex items-center justify-center cursor-pointer xs:hidden">
+                Show
+                35 posts</div>
+            <div class="content border-b border-gray-500 h-fit cursor-pointer w-full py-4">
+                <div class="flex">
+                    <img class="w-14 invert h-14" src="images/profile-circle.svg" alt="">
+                    <div class="post w-full ">
+                        <div class="accname  ">
+                            <span class="font-bold px-3 hover:underline">Marvel Studios</span>
+                            <span class="text-gray-500">@MarvelStudios · Aug 16</span>
+                        </div>
+                        <div class="caption pl-3">
+                            <span>LFG to the movies! </span>
+                            <span class="text-blue-500">#DeadpoolAndWolverine</span>
+                        </div>
+                        <img class="w-9/12 h-[72vh] p-3 rounded-3xl"
+                            src="https://pbs.twimg.com/media/GVHlL4sW8AA5N1S?format=jpg&name=small" alt="">
+                        <div class="belowposticons text-gray-500 flex mt-2">
+
+                            <span class="material-symbols-outlined ">quick_phrases</span>21
+                            <span class="material-symbols-outlined pl-16 xs:pl-6">repeat</span>34
+                            <span class="material-symbols-outlined pl-16 xs:pl-6">favorite</span>2k
+                            <span class="material-symbols-outlined pl-16 xs:pl-6">signal_cellular_alt</span>91k
+                            <span class="material-symbols-outlined pl-16 xs:pl-6">Bookmark</span>
+                            <span class="material-symbols-outlined">upload</span>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content cursor-pointer border-b border-gray-500 h-fit w-full py-4">
+                <div class="flex">
+                    <img class="w-14 invert h-14" src="images/profile-circle.svg" alt="">
+                    <div class="post w-full ">
+                        <div class="accname  ">
+                            <span class=" hover:underline font-bold px-3">Marvel Studios</span>
+                            <span class="text-gray-500">@MarvelStudios · Aug 16</span>
+                        </div>
+                        <div class="caption pl-3">
+                            <span>LFG to the movies! </span>
+                            <span class="text-blue-500">#Hulk</span>
+                        </div>
+                        <img class="w-9/12 h-[72vh] p-3 rounded-3xl"
+                            src="https://pbs.twimg.com/media/GVIITrRWAAEGYlh?format=jpg&name=900x900"
+                            alt="">
+                        <div class="belowposticons text-gray-500 flex mt-2">
+                            <span class="material-symbols-outlined ">quick_phrases</span>21
+                            <span class="material-symbols-outlined pl-16 xs:pl-6">repeat</span>34
+                            <span class="material-symbols-outlined pl-16 xs:pl-6">favorite</span>2k
+                            <span class="material-symbols-outlined pl-16 xs:pl-6">signal_cellular_alt</span>91k
+                            <span class="material-symbols-outlined pl-16 xs:pl-6">Bookmark</span>
+                            <span class="material-symbols-outlined">upload</span>
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="right hidden  w-[31%] h-fit md:flex md:flex-col items-end px-2 pb-20 relative ">
+            <div
+                class="search bg-neutral-800 w-11/12 h-10 bg-[rgb(32 35 39)] rounded-full mt-1 flex items-center gap-5 px-5 sticky top-0 ">
+                <img class="w-5 invert" src="images/search.svg" alt="search">
+                <div class="text-gray-500">Search</div>
+            </div>
+            <div class="ist w-11/12 h-36  border-[1px] border-gray-500 rounded-2xl mt-4 px-4 py-1  flex flex-col gap-2">
+                <h1 class="text-xl font-bold">Subscribe to Premium</h1>
+                <p>Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
+                <div class="capsule bg-sky-500 cursor-pointer">Subscribe</div>
+            </div>
+            <div
+                class="second w-11/12 h-[70vh]  border-[1px] border-gray-500 rounded-2xl mt-4 px-4 py-1 flex flex-col gap-3 ">
+                <h1 class="text-xl font-bold">What's happening</h1>
+                <div class="ad w-full h-20  flex gap-3 cursor-pointer">
+                    <img class="h-20 w-20 rounded-xl" src="images/liveimage.jpeg" alt="liveimage">
+                    <div>
+                        <p class="font-bold">Esports World Cup 2024</p>
+                        <div class="flex items-center">
+                            <p class="text-xs text-gray-500">Esports .</p>
+                            <div class="h-fit w-fit px-2 rounded-md bg-[#f91880] text-white">live</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hashtag hover:bg-[#16181c] rounded-lg p-2 cursor-pointer flex justify-between">
+                    <div class="hash ">
+                        <p class="text-xs text-gray-500">Politics · Trending</p>
+                        <p class="font-bold">#JusticeForMoumita</p>
+                        <p class="text-xs text-gray-500">92.8K posts</p>
+                    </div>
+                    <div class="dot text-3xl">...</div>
+                </div>
+                <div class="hashtag hover:bg-[#16181c] rounded-lg p-2 cursor-pointer flex justify-between">
+                    <div class="hash ">
+                        <p class="text-xs text-gray-500">cinena · Trending</p>
+                        <p class="font-bold">#Prabhas movie</p>
+                        <p class="text-xs text-gray-500">52.8K posts</p>
+                    </div>
+                    <div class="dot text-3xl">...</div>
+                </div>
+                <div class="hashtag hover:bg-[#16181c] rounded-lg p-2 cursor-pointer flex justify-between">
+                    <div class="hash ">
+                        <p class="text-xs text-gray-500">Technology · Trending</p>
+                        <p class="font-bold">#iphone</p>
+                        <p class="text-xs text-gray-500 ">47.8K posts</p>
+                    </div>
+                    <div class="dot text-3xl">...</div>
+                </div>
+                <div class="hashtag hover:bg-[#16181c] rounded-lg p-2 cursor-pointer flex justify-between">
+                    <div class="hash ">
+                        <p class="text-xs text-gray-500">Trending in india</p>
+                        <p class="font-bold">#UPSC</p>
+                        <p class="text-xs text-gray-500">32.5K posts</p>
+                    </div>
+                    <div class="dot text-3xl">...</div>
+                </div>
+                <p class="text-blue-600 cursor-pointer hover:underline">Show more</p>
+            </div>
+            <div
+                class="third w-11/12 h-[40vh]  border-[1px] border-gray-500 rounded-2xl mt-4 px-4 py-1 flex flex-col gap-2">
+                <h1 class="text-xl font-bold">Who to follow</h1>
+                <div class="profile cursor-pointer flex items-center justify-between hover:bg-[#16181c] rounded-lg p-2">
+                    <div class="account flex gap-2 items-center">
+                        <img class="w-11 h-11 rounded-md " src="https://pbs.twimg.com/profile_images/1321163587679784960/0ZxKlEKB_bigger.jpg" alt="img">
+                        <div>
+                            <p class="font-bold">NASA</p>
+                            <p class="text-gray-500">@NASA</p>
+                        </div>
+                    </div>
+                    <div class="capsule bg-white text-black font-bold">Follow</div>
+                </div>
+                <div
+                    class="profile  cursor-pointer flex items-center justify-between hover:bg-[#16181c] rounded-lg p-2">
+                    <div class="account flex gap-2 items-center">
+                        <img class="w-11 h-11 rounded-md " src="https://pbs.twimg.com/profile_images/1222646977332174849/xWcD6t_Q_bigger.jpg" alt="img">
+                        <div>
+                            <p class="font-bold">Marvel studios</p>
+                            <p class="text-gray-500">@MarvelStudios</p>
+                        </div>
+                    </div>
+                    <div class="capsule bg-white text-black font-bold">Follow</div>
+                </div>
+                <div class="profile cursor-pointer flex items-center justify-between hover:bg-[#16181c] rounded-lg p-2">
+                    <div class="account flex gap-2 items-center">
+                        <img class="w-11 h-11 rounded-md " src="https://pbs.twimg.com/profile_images/1792606763340169216/XXYWIqyY_bigger.jpg" alt="img">
+                        <div>
+                            <p class="font-bold">Netflix</p>
+                            <p class="text-gray-500">@netflix</p>
+                        </div>
+                    </div>
+                    <div class="capsule bg-white text-black font-bold">Follow</div>
+                </div>
+                <p class="text-blue-600 cursor-pointer hover:underline">Show more</p>
+
+            </div>
+            <div class="caption w-11/12 pt-5">
+
+                <a class="pr-4 text-xs text-gray-500 hover:underline" href="/">Terms of Service</a>
+                <a class="pr-4 text-xs text-gray-500 hover:underline" href="/">Privacy Policy</a>
+                <a class="pr-4 text-xs text-gray-500 hover:underline" href="/">Cookie Policy</a>
+                <a class="pr-4 text-xs text-gray-500 hover:underline" href="/">Accessibility</a>
+                <a class="pr-4 text-xs text-gray-500 hover:underline" href="/">Ads info</a>
+                <a class="pr-4 text-xs text-gray-500 hover:underline" href="/">More...</a>
+                <a class="pr-4 text-xs text-gray-500 hover:underline" href="/">© 2024 X Corp.</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

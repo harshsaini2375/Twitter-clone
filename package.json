@@ -1,0 +1,17 @@
+{
+  "name": "video-101-twitter",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "vite": "^5.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "vite":"vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
